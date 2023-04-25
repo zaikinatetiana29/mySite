@@ -1,0 +1,37 @@
+
+::placeholder{
+  color:rgba(95, 93, 93, 1);
+  margin-left: 10px;
+}
+
+
+.b1{
+width: 255px;
+height: 50px;
+margin: 56px 10px 15px 10px;
+border:0px;
+padding: 17px 0px 18px 20px ;
+}
+
+.b2{
+  width: 540px;
+height: 175px;
+margin-left: 9px;
+border:0px;
+padding-left: 20px;
+padding-bottom: 143px;
+}
+button{
+  width: 190px;
+  height: 55px;
+  color:white;
+  background-color: #34547a;
+  margin: 50px 0px 81px 0px;
+  letter-spacing: 2px;
+}
+button:hover{
+  width: 193px;
+  height: 58px;
+  border-color: black;
+  border: 10px;
+}

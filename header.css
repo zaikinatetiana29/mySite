@@ -1,0 +1,50 @@
+.header{
+  background-color: #34547a;
+  width: 1850px;
+height: 151px;
+}
+.header-wrapper{
+  padding-bottom: 30px;
+}
+
+
+.information{
+  width: 300px;
+  height: 19px;
+font-weight: 500px;
+font-size: 21px;
+line-height: 25px;
+padding: 50px 0px 20px 70px;
+}
+.inf{
+  font-size: 13px;
+   font-weight: 400px;
+line-height: 21px;
+padding: 89px 0px 50px 120px;
+}
+.inf , .information{
+  position: absolute;
+  font-family: 'Roboto';
+  color: white;
+  font-style: normal;
+}
+.logo-vk{
+  width: 58px;
+  padding: 60px 0px 55px 10px;
+}
+.logo-container{
+margin: 0px 10px 10px 1150px;
+}
+
+@media screen  and (max-width:700px) {
+  .header{
+width: 960px;
+  }
+.logo-vk{
+  width: 29px;
+}
+
+.header-wrapper{
+  margin-bottom: 60px; 
+}
+}

@@ -1,0 +1,90 @@
+.main{
+  padding: 300px 0px 0px 0px ;
+}
+
+.user-card{
+  justify-content: center;
+display: flex;
+width: 1550px;
+height: 450px;
+margin: 0;
+padding-left: 160px;
+margin-bottom: 150px;
+}
+
+.img{
+  max-width: 455px;
+  display: block;
+  
+}
+
+
+.info-wrapper{
+  padding: 80px 150px 80px 0px;
+}
+
+  
+
+.user-card-heading{
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 2rem;
+  line-height: 38px;
+  color: #000000;
+padding: 44px 0x 25px 0px;
+}
+
+
+.card-text{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  padding:  15px 0px 10px 0px;
+  
+}
+
+.line-blue{
+  border: none;
+  background-color:  #34547A;;
+transform: rotate(-0.06deg);
+width: 349.36px;
+height: 4px;
+transform: translate(0,11px);
+}
+
+
+.line-grey{
+  display: block;
+  margin-block-end: auto;
+  width: 74px;
+  height: 4px;
+  background: #C4C4C4;
+border: none;
+transform: translate(211px,0);
+
+}
+
+@media screen and (max-width:700px)  {
+.user-card{
+  flex-direction: column;
+  max-width: 300px;
+  
+}
+.line-grey{
+  transform: translate(350px,0);
+}
+.user-card-heading{
+  font-size: 1.5rem;
+  line-height: 24px;
+  padding-top: 50px;
+}
+.img{
+  padding-bottom: 140px;
+}
+
+}  
